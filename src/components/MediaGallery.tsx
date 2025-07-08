@@ -17,7 +17,7 @@ import {
   Volume2
 } from "lucide-react";
 
-import demoVideo1 from "@/assets/full-demo.mp4";
+import demoVideo1 from "@/assets/demo.mp4";
 import demoVideo2 from "@/assets/emotion-demo.mp4";
 import demoVideo3 from "@/assets/mask-muted.mp4";
 import buildVideo1 from "@/assets/mechanical-assembly.mp4";
@@ -58,21 +58,21 @@ const MediaGallery = () => {
       title: "Full System Demo",
       description: "Complete demonstration of Kuweni's capabilities including facial recognition, conversation, and expressions",
       videoSrc: demoVideo1,
-      duration: "3:45",
+      duration: "4:56",
       type: "Demo"
     },
     {
       title: "Facial Expression Demo",
       description: "Showcase of all six basic emotions with smooth transitions and natural movement",
       videoSrc: demoVideo2,
-      duration: "2:15",
+      duration: "0:11",
       type: "Features"
     },
     {
       title: "Attaching the Silicone Mask",
       description: "Attaching the silicone mask using magnets",
       videoSrc: demoVideo3,
-      duration: "4:20",
+      duration: "0:09",
       type: "Demo"
     }
   ];
@@ -85,28 +85,28 @@ const MediaGallery = () => {
       title: "Mechanical Assembly",
       description: "Time-lapse of the 21-DOF mechanical system assembly and servo motor installation",
       videoSrc: buildVideo1,
-      duration: "8:30",
+      duration: "0:36",
       type: "Build"
     },
     {
       title: "Silicone Skin Casting",
       description: "Complete process of creating the silicone mask using vacuum casting techniques",
       videoSrc: buildVideo2,
-      duration: "6:45",
+      duration: "0:10",
       type: "Build"
     },
     {
       title: "Multiple People Recognition",
       description: "Recognition of multiple people simultaneously",
       videoSrc: buildVideo3,
-      duration: "12:15",
+      duration: "0:03",
       type: "Code"
     },
     {
       title: "Face Tracking",
       description: "Tracking the face of the active speacker real-time",
       videoSrc: buildVideo4,
-      duration: "5:40",
+      duration: "0:13",
       type: "Test"
     }
   ];
